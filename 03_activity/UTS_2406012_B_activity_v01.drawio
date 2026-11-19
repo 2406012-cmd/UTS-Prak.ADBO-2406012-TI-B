@@ -1,0 +1,111 @@
+<mxfile host="65bd71144e">
+    <diagram id="5AdLz75ZUJGKBhBxhh5T" name="Page-1">
+        <mxGraphModel dx="400" dy="395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="vCF3-6hDvW2HH4TiN-i3-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Pasien" vertex="1">
+                    <mxGeometry height="880" width="300" x="40" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="vCF3-6hDvW2HH4TiN-i3-5" edge="1" parent="vCF3-6hDvW2HH4TiN-i3-1" source="vCF3-6hDvW2HH4TiN-i3-3" style="edgeStyle=none;html=1;" target="vCF3-6hDvW2HH4TiN-i3-4" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="vCF3-6hDvW2HH4TiN-i3-3" parent="vCF3-6hDvW2HH4TiN-i3-1" style="ellipse;fillColor=strokeColor;html=1;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="135" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="vCF3-6hDvW2HH4TiN-i3-4" parent="vCF3-6hDvW2HH4TiN-i3-1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Membuka Fungsi Melihat Dokter" vertex="1">
+                    <mxGeometry height="60" width="120" x="90" y="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="vCF3-6hDvW2HH4TiN-i3-9" parent="vCF3-6hDvW2HH4TiN-i3-1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;Mengecek Ketersediaan Jadwal Dokter&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="70" width="140" x="80" y="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="vCF3-6hDvW2HH4TiN-i3-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Sistem" vertex="1">
+                    <mxGeometry height="880" width="470" x="340" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="vCF3-6hDvW2HH4TiN-i3-6" parent="vCF3-6hDvW2HH4TiN-i3-2" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;Sistem Menampilkan Daftar Jadwal Dokter&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="150" x="160" y="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="vCF3-6hDvW2HH4TiN-i3-18" edge="1" parent="vCF3-6hDvW2HH4TiN-i3-2" source="vCF3-6hDvW2HH4TiN-i3-11" style="edgeStyle=none;html=1;entryX=0.534;entryY=-0.039;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="vCF3-6hDvW2HH4TiN-i3-17">
+                    <mxGeometry relative="1" x="0.0991" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="340.36" y="340"/>
+                            <mxPoint x="340" y="480"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="vCF3-6hDvW2HH4TiN-i3-25" connectable="0" parent="vCF3-6hDvW2HH4TiN-i3-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="[Tidak Tersedia]" vertex="1">
+                    <mxGeometry relative="1" x="0.308" y="-2" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="vCF3-6hDvW2HH4TiN-i3-11" parent="vCF3-6hDvW2HH4TiN-i3-2" style="rhombus;" value="Jadwal Dokter &#xa;Tersedia?" vertex="1">
+                    <mxGeometry height="100" width="100" x="185" y="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="vCF3-6hDvW2HH4TiN-i3-20" edge="1" parent="vCF3-6hDvW2HH4TiN-i3-2" source="vCF3-6hDvW2HH4TiN-i3-17" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.529;exitY=0.833;exitDx=0;exitDy=0;" target="vCF3-6hDvW2HH4TiN-i3-19">
+                    <mxGeometry relative="1" x="0.0211" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="340" y="630"/>
+                            <mxPoint x="235" y="630"/>
+                        </Array>
+                        <mxPoint x="235" y="709.9999999999998" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="vCF3-6hDvW2HH4TiN-i3-17" parent="vCF3-6hDvW2HH4TiN-i3-2" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;Sistem Menampilkan Pesan Bahwa Jadwal Dokter Penuh atau tidak tersedia&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="170" x="250" y="510" as="geometry"/>
+                </mxCell>
+                <mxCell id="vCF3-6hDvW2HH4TiN-i3-23" edge="1" parent="vCF3-6hDvW2HH4TiN-i3-2" source="vCF3-6hDvW2HH4TiN-i3-19" style="edgeStyle=none;html=1;" target="vCF3-6hDvW2HH4TiN-i3-22" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="vCF3-6hDvW2HH4TiN-i3-19" parent="vCF3-6hDvW2HH4TiN-i3-2" style="rhombus;" value="" vertex="1">
+                    <mxGeometry height="50" width="50" x="210" y="700" as="geometry"/>
+                </mxCell>
+                <mxCell id="vCF3-6hDvW2HH4TiN-i3-22" parent="vCF3-6hDvW2HH4TiN-i3-2" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="220" y="830" as="geometry"/>
+                </mxCell>
+                <mxCell id="vCF3-6hDvW2HH4TiN-i3-15" parent="vCF3-6hDvW2HH4TiN-i3-2" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;Sistem Menampilkan Jadwal Dokter Yang Tersedia&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="70" width="140" x="80" y="500" as="geometry"/>
+                </mxCell>
+                <mxCell id="vCF3-6hDvW2HH4TiN-i3-16" edge="1" parent="vCF3-6hDvW2HH4TiN-i3-2" source="vCF3-6hDvW2HH4TiN-i3-11" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.429;entryY=0;entryDx=0;entryDy=0;" target="vCF3-6hDvW2HH4TiN-i3-15" value="">
+                    <mxGeometry relative="1" x="-0.0759" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="235" y="430"/>
+                            <mxPoint x="140.06" y="430"/>
+                        </Array>
+                        <mxPoint x="230" y="400" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="vCF3-6hDvW2HH4TiN-i3-24" connectable="0" parent="vCF3-6hDvW2HH4TiN-i3-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="[Tersedia]" vertex="1">
+                    <mxGeometry relative="1" x="0.3535" y="-1" as="geometry">
+                        <mxPoint x="22" y="-11" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="vCF3-6hDvW2HH4TiN-i3-21" edge="1" parent="vCF3-6hDvW2HH4TiN-i3-2" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="vCF3-6hDvW2HH4TiN-i3-19">
+                    <mxGeometry relative="1" x="-0.0007" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="140" y="725"/>
+                        </Array>
+                        <mxPoint x="140" y="570" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="vCF3-6hDvW2HH4TiN-i3-7" edge="1" parent="1" source="vCF3-6hDvW2HH4TiN-i3-4" style="edgeStyle=none;html=1;" target="vCF3-6hDvW2HH4TiN-i3-6" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="vCF3-6hDvW2HH4TiN-i3-10" edge="1" parent="1" source="vCF3-6hDvW2HH4TiN-i3-6" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vCF3-6hDvW2HH4TiN-i3-9" value="">
+                    <mxGeometry relative="1" x="0.0731" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="575" y="230"/>
+                            <mxPoint x="190" y="230"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="vCF3-6hDvW2HH4TiN-i3-12" edge="1" parent="1" source="vCF3-6hDvW2HH4TiN-i3-9" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="vCF3-6hDvW2HH4TiN-i3-11">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="180" y="360"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
